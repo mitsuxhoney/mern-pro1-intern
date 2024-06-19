@@ -1,1 +1,0 @@
-import{j as t}from"./index-D1qfI1S6.js";function o(){return t.jsx("div",{className:"w-[100vw] h-[100vh] flex justify-center items-center font-bold text-white text-[2rem] bg-[#242528]",children:"404 Not Found!"})}export{o as default};
