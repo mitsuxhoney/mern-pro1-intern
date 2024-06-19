@@ -24,7 +24,7 @@ const router = createBrowserRouter(
     <Route element={<Suspense fallback = {
       <div></div>
       } ><Layout /></Suspense>} >
-      <Route path="/" element={<Suspense fallback = {
+      <Route path="/mern-pro1-intern/" element={<Suspense fallback = {
       <div className="flex items-center justify-center h-screen w-screen">
         <div className="relative">
             <div className="h-24 w-24 rounded-full border-t-8 border-b-8 border-gray-200"></div>
@@ -33,7 +33,7 @@ const router = createBrowserRouter(
         </div>
       </div>
     } ><Home /></Suspense>}  />
-      <Route path="/about" element={
+      <Route path="/mern-pro1-intern/about" element={
       <Suspense fallback = {
         <div className="flex items-center justify-center h-screen w-screen">
           <div className="relative">
@@ -44,7 +44,7 @@ const router = createBrowserRouter(
         </div>
       } ><About /></Suspense>
       } />
-      <Route path="/contact" element={
+      <Route path="/mern-pro1-intern/contact" element={
         <Suspense fallback = {
           <div className="flex items-center justify-center h-screen w-screen">
             <div className="relative">
@@ -55,7 +55,7 @@ const router = createBrowserRouter(
           </div>
         } ><Contact /></Suspense>
       } />  
-      <Route path="/services/fintech" element={
+      <Route path="/mern-pro1-intern/services/fintech" element={
         <Suspense fallback = {
           <div className="flex items-center justify-center h-screen w-screen">
             <div className="relative">
@@ -122,7 +122,7 @@ const router = createBrowserRouter(
         } ><Ecommerce /></Suspense>
       } /> */}
     </Route>
-    <Route path="*" element={
+    <Route path="/mern-pro1-intern/*" element={
       <Suspense fallback = {
         <div className="flex items-center justify-center h-screen w-screen">
           <div className="relative">

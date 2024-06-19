@@ -28,7 +28,7 @@ function Header() {
     <header className={`w-[100vw] z-[100] flex justify-center items-center py-2 ${scrolled ? 'bg-[white] transition-all duration-300 shadow-xl' : 'bg-[#79F4E4] transition-all duration-300 '} fixed top-0 left-0 `}>
         <div className='w-[90%] flex justify-between items-center sm:max-md:w-[70%] md:w-[80%]'>
             
-            <Link to="/"
+            <Link to="/mern-pro1-intern/"
                 onClick={() => {
                     window.scrollTo({
                       top: 0,

@@ -77,7 +77,7 @@ function Footer() {
                                 });
                             }}
                         >
-                            <NavLink to="/services/fintech" className={({isActive}) => `${isActive ? "underline" : ""}`}>
+                            <NavLink to="/mern-pro1-intern/services/fintech" className={({isActive}) => `${isActive ? "underline" : ""}`}>
                                 Fintech Software Development
                             </NavLink>
                         </li>
@@ -147,7 +147,7 @@ function Footer() {
                     <h2 className="">Helpful Links</h2>
                     <ul className="text-gray-400 flex flex-col gap-1 md:text-left">
                         <li>
-                            <NavLink to="/about"
+                            <NavLink to="/mern-pro1-intern/about"
                                 className={({isActive})=>`${isActive ? "underline" : "none" } cursor-pointer`}
                                 onClick={() => {
                                     window.scrollTo({
@@ -160,7 +160,7 @@ function Footer() {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to="/contact"
+                            <NavLink to="/mern-pro1-intern/contact"
                                 className={({isActive})=>`${isActive ? "underline" : "none" } cursor-pointer`}
                                 onClick={() => {
                                     window.scrollTo({

@@ -17,7 +17,7 @@ function Navigation({scrolled}) {
     <nav className='hidden md:flex'>
         <ul className='w-full relative flex justify-between gap-14 text-[1rem] md:gap-10 lg:gap-12'>
             <li className={`cursor-pointer group relative rounded-lg py-[0.4rem] ${scrolled ? 'hover:bg-[#79F4E4]' : 'hover:bg-white'} transition-all duration-200`} onMouseEnter={openServicesDropdown} onMouseLeave={closeServicesDropdown}>
-                <div to="/" className={`px-2 ${scrolled ? "hover:bg-[#79F4E4] rounded-lg" : "hover:bg-white rounded-lg"}`} >
+                <div className={`px-2 ${scrolled ? "hover:bg-[#79F4E4] rounded-lg" : "hover:bg-white rounded-lg"}`} >
                     Services
                 </div>
                 {
@@ -25,7 +25,7 @@ function Navigation({scrolled}) {
                         <div className={`absolute top-[91.4%] left-[-150px] lg:left-[-250px] mt-[0.30rem] w-[30rem] lg:w-[40rem] rounded-md shadow-lg ${scrolled ? "bg-gray-200" : "bg-white" } ring-1 ring-black ring-opacity-5`}>
                             <div className="py-2 px-2 flex flex-col gap-2" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
                             {/* Dropdown content for Services */}
-                                <NavLink to="/services/fintech" className={`block px-4 py-2 text-sm text-gray-700 ${scrolled ? "hover:bg-gray-100" : "hover:bg-gray-200"}`} role="menuitem"
+                                <NavLink to="/mern-pro1-intern/services/fintech" className={`block px-4 py-2 text-sm text-gray-700 ${scrolled ? "hover:bg-gray-100" : "hover:bg-gray-200"}`} role="menuitem"
                                     onClick={() => {
                                         window.scrollTo({
                                           top: 0,
@@ -98,7 +98,7 @@ function Navigation({scrolled}) {
                     });
                 }}
             >
-                <NavLink to="/about" className={({isActive}) => `p-2 ${isActive ? scrolled ? "bg-[#79F4E4] rounded-lg" : "bg-white rounded-lg" : "none" }`}>
+                <NavLink to="/mern-pro1-intern/about" className={({isActive}) => `p-2 ${isActive ? scrolled ? "bg-[#79F4E4] rounded-lg" : "bg-white rounded-lg" : "none" }`}>
                     About
                 </NavLink>
             </li>
@@ -110,7 +110,7 @@ function Navigation({scrolled}) {
                     });
                 }}
             >
-                <NavLink to="/contact" className={({isActive}) => `p-2 ${isActive ? scrolled ? "bg-[#79F4E4] rounded-lg" : "bg-white rounded-lg" : "none" }`}>
+                <NavLink to="/mern-pro1-intern/contact" className={({isActive}) => `p-2 ${isActive ? scrolled ? "bg-[#79F4E4] rounded-lg" : "bg-white rounded-lg" : "none" }`}>
                     Contact Us
                 </NavLink> 
             </li> 
